@@ -3,6 +3,7 @@
 #include <cmath>
 #include <ctime>
 #include <cstdlib>
+#include <string>
 
 int main(){
     std::string confinue;
@@ -118,7 +119,7 @@ int main(){
             }
         } 
         else if (gm == 3 && hp >= 5000) {
-            std::cout << "\nYOU WIN!\nYou successfully collected over 5000 HP!\n";
+            std::cout << "\nYOU WIN!\nGreat Job Scouts!\n";
             startio = false;
         } 
         else if (gm == 1 && rounds >= 20) {
